@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.4820" tests="4" failures="3">
+  <testsuite name="Root Suite" timestamp="2021-12-06T17:30:16" tests="0" file="cypress/integration/schedule.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Schedule page tests" timestamp="2021-12-06T17:30:16" tests="4" time="3.4820" failures="3">
+    <testcase name="Schedule page tests Goes to Schedule page and verifies the url" time="3.4820" classname="Goes to Schedule page and verifies the url">
+    </testcase>
+    <testcase name="Schedule page tests Validate correct number of employees" time="0.0000" classname="Validate correct number of employees">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.virtualized-board__body`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.virtualized-board__body`, but never found it.
+    at Schedule.checkNumberOfEmployees (https://test1234.planday.com/__cypress/tests?p=cypress/integration/schedule.spec.js:263:8)
+    at Context.eval (https://test1234.planday.com/__cypress/tests?p=cypress/integration/schedule.spec.js:167:14)]]></failure>
+    </testcase>
+    <testcase name="Schedule page tests Create a shift for one of the employees" time="0.0000" classname="Create a shift for one of the employees">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `6 December 2021 Employee One`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `6 December 2021 Employee One`, but never found it.
+    at Schedule.createShift (https://test1234.planday.com/__cypress/tests?p=cypress/integration/schedule.spec.js:268:8)
+    at Context.eval (https://test1234.planday.com/__cypress/tests?p=cypress/integration/schedule.spec.js:170:14)]]></failure>
+    </testcase>
+    <testcase name="Schedule page tests Verify shift is created" time="0.0000" classname="Verify shift is created">
+      <failure message="cy.validateShiftIsCreated is not a function" type="TypeError"><![CDATA[TypeError: cy.validateShiftIsCreated is not a function
+    at Context.eval (https://test1234.planday.com/__cypress/tests?p=cypress/integration/schedule.spec.js:173:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

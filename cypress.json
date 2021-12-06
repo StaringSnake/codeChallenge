@@ -1,0 +1,13 @@
+{
+    "baseUrl": "https://test1234.planday.com/",
+    "projectId": "",
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "test-results/test-output.xml"
+      }, 
+    "env":{
+      "email": "plandayqa@outlook.com",
+      "password": "APItesting21"
+    },
+    "chromeWebSecurity": false
+  }

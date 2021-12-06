@@ -1,0 +1,17 @@
+{
+  "name": "planday",
+  "version": "1.0.0",
+  "description": "code challenge for planday",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Andre Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  }
+}
