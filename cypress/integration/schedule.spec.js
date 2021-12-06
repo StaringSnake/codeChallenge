@@ -25,6 +25,6 @@ describe('Schedule page tests', ()=>{
     });
 
     it('Verify shift is created', () => {
-        cy.validateShiftIsCreated('Employee One')
+        schedule.validateShiftIsCreated('Employee One')
     });
 })

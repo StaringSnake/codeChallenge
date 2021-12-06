@@ -16,7 +16,7 @@ export class Schedule{
 
     validateShiftIsCreated(empName){
         let time = moment().format('D MMMM YYYY')
-        let dateName = time+' '+empName
+        let dateName = '[aria-label="'+time+' '+empName+'"]'
         cy.get(dateName).find('[class="shift-tile__time-input shift-tile__time-input-inline"]').should('have.length', 2)
     }
 }
